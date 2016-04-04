@@ -81,8 +81,8 @@ h3 {
     width: 100%;
 }
 
-.affix + .container-fluid {
-    padding-top: 70px;
+.affix + .container {
+    padding-top: 125px;
 }
 
 .navbar .navbar-nav {
@@ -99,6 +99,7 @@ h3 {
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
 }
+
 
 /*end navbar*/
 
