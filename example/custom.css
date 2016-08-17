@@ -226,7 +226,7 @@ address {
 
 /*medium & up*/
 
-@media only screen and (min-width: 922px) {
+@media only screen and (min-width: 992px) {
     h1 {
         font-size: 150px;
     }
