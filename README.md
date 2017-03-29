@@ -27,4 +27,4 @@ _The purpose of this repository is to help you practice using Bootstrap componen
 * Working in pairs, have one person **fork** this repository.  That person should add the other person as a **collaborator**.
 * Both partners should then **clone the forked repository**.
 * Edit, add, commit, push, pull, and resolve merge conflicts as necessary.
-* When you are finished, both partners should add the `gh-pages` hack to make the result live for the world to see.
+* When you are finished, the owner should make **gh-pages** use the **master** branch to make the result live for the world to see.  Make sure you test out the github.io URL!
