@@ -45,5 +45,8 @@ h1{
 
 .navbar {
     background: transparent;
-    position: center
+    float: left
+    margin: 0 auto;
+    
+    border-color: transparent;
 }
