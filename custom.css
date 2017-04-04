@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: #b3b3ff;
+    background-color: #99ccff;
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
 }
 
 .light-blue{
-    background-color: #66ccff;
+    background-color: 	#ccf2ff;
 }
 #container{
     padding:100px;
@@ -43,4 +43,8 @@ h1{
     color: white;
 }
 
+#clipart{
+    padding: 25px;
+    padding-left: 150px
+}
 
