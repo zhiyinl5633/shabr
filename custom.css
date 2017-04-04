@@ -43,4 +43,7 @@ h1{
     color: white;
 }
 
-
+.navbar {
+    background: transparent;
+    position: center
+}
