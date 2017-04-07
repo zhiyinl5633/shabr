@@ -15,10 +15,11 @@ h1{
 }
 
 .light-blue{
-    background-color: 	#ccf2ff;
+    background-color:#ccf2ff;
+    padding: 100px;
 }
 #container{
-    padding:100px;
+    
 }
 
 #landing {
@@ -53,11 +54,20 @@ h1{
 
 .navbar {
     background: transparent;
-    float: left;
+    float: right;
     margin: 0 auto;
-    
+    font-size: x-large;
+    font-weight: bold;
+    font-style: important;
     border-color: transparent;
 }
+.navbar a{
+    color:white;
+}
 
+.footer{
+    background-color: #00ffcc;
+    padding:5px;
 
+}
 
