@@ -1,46 +1,52 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
 body {
     background-color: #99ccff;
-   
 }
 
-h1{
+h1 {
+    color:white;
     font-weight: 700;
     font-size: 50px;
     line-height: 100%;
     font-family: Kranky;
 }
 
-p{
+p {
+    color: white;
     font-family: 'Love Ya Like A Sister', cursive;
-
 }
 
-.light-blue{
-    background-color:#ccf2ff;
+.container{
+    border-radius: 50px;
+}
+
+.light-blue {
+    background-color: #ccf2ff;
     padding: 100px;
 }
-
 
 #landing {
     width: 100%;
     height: 100%;
-    padding:50px,0;
-    background: linear-gradient( rgba(0, 0, 0,0.5), rgba(0, 0, 0,0)),url('img/balloon-3.jpg') no-repeat top;
+    padding: 50px, 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url('img/balloon-3.jpg') no-repeat top;
     background-size: cover;
 }
 
 #landing h1,
-#landing h2{
+#landing h2 {
     text-align: center;
 }
-#landing h1{
+
+#landing h1 {
     font-size: 100px;
-    font-family: 'Monoton', cursive;;
+    font-family: 'Monoton', cursive;
+    ;
 }
 
 .text-vertical-center {
@@ -50,18 +56,15 @@ p{
     color: white;
 }
 
-#fun{
-    background: linear-gradient( rgba(0, 0, 250,.25), rgba(0, 0, 0, 0.75)),url('img/home.jpg') no-repeat center;
+#fun {
+    background: linear-gradient( rgba(0, 0, 250, .25), rgba(0, 0, 0, 0.75)), url('img/home.jpg') no-repeat center;
     background-size: cover;
 }
+
 #fun h1,
-#fun p{
-    color:white;
+#fun p {
+    color: white;
 }
-
-
-
-
 
 .navbar {
     background: transparent;
@@ -73,24 +76,32 @@ p{
     border-color: transparent;
 }
 
+#infobg{
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.75)), url(img/balloon-2.jpg) no-repeat center;
+    background-size: cover;
+}
 
-.footer{
-    font-family: 'Coming Soon', cursive;;
-    padding:5px;
 
+
+.footer {
+    font-family: 'Coming Soon', cursive;
+    ;
+    padding: 5px;
 }
 
 .jumbotron {
-   background: url(img/balloon-1.jpg);
-   padding:150px;
-   
+    background: url(img/balloon-1.jpg);
+    padding: 150px;
+}
+.jumbotron p{
+    color:black;
 }
 
 .form {
     margin: 40px;
     position: fixed;
     bottom: -60px;
-    right:-50px;
+    right: -50px;
     width: 75px;
     height: 60px;
     border: 5px solid white;
