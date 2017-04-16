@@ -76,6 +76,6 @@ h1{
 
 }
 
-#testimonials {
-   
+.jumbotron {
+   background: url(img/balloon-1.jpg);
 }
