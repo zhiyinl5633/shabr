@@ -18,9 +18,7 @@ h1{
     background-color:#ccf2ff;
     padding: 100px;
 }
-#container{
-    
-}
+
 
 #landing {
     width: 100%;
@@ -45,6 +43,15 @@ h1{
     color: white;
 }
 
+#fun{
+    background: linear-gradient( rgba(0, 0, 250,.25), rgba(0, 0, 0, 0.75)),url('img/home.jpg') no-repeat center;
+    background-size: cover;
+}
+#fun h1,
+#fun p{
+    color:white;
+}
+
 
 #clipart{
     padding: 25px;
@@ -61,9 +68,7 @@ h1{
     font-style: important;
     border-color: transparent;
 }
-.navbar a{
-    color:white;
-}
+
 
 .footer{
     background-color: #00ffcc;
