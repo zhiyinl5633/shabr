@@ -31,7 +31,7 @@ h3 {
 p {
     color: white;
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .container {
@@ -53,7 +53,36 @@ p {
 #landing h1 {
     font-size: 150px;
     font-family: 'Monoton', cursive;
-}  
+    animation-name: txtcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes txtcolor {
+    0% {
+        color: #ffccd9;
+    }
+     25% {
+        color: #ffe6cc;
+    }
+     50% {
+        color: #99ffbb;
+    }
+     75%{
+        color: #99ffff;
+     }
+    100% {
+        color: #d9b3ff;
+    }
+}
+
+.col-sm-offset-4 {
+    padding-left: 50px;
+}
+
+.col-sm-offset-5 {
+    padding-left: 100px;
+}
 
 .text-vertical-center {
     text-align: center;
@@ -115,6 +144,9 @@ p {
     #landing h1 {
         font-size: 60px;
     }
+     #landing h2 {
+        font-size: 20px;
+    }
     h1 {
         font-size: 40px;
         padding-left: 25px;
@@ -125,7 +157,7 @@ p {
     #landing h1 {
         font-size: 80px;
     }
-    #landing h2{
+    #landing h2 {
         font-size: 30px;
     }
     h1 {
@@ -138,7 +170,7 @@ p {
     #landing h1 {
         font-size: 110px;
     }
-    #landing h2{
+    #landing h2 {
         font-size: 40px;
     }
     h1 {
@@ -151,7 +183,7 @@ p {
     #landing h1 {
         font-size: 150px;
     }
-    #landing h2{
+    #landing h2 {
         font-size: 50px;
     }
     h1 {
