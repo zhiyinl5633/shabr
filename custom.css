@@ -125,6 +125,11 @@ p {
         font-size: 90px;
       }
     }
+@media(min-width:1080px){
+      #landing h1 {
+        font-size: 130px;
+      }
+    }
 
 
 
