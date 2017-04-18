@@ -96,6 +96,10 @@ p {
     background-size: cover;
 }
 
+#fun p{
+    font-size: 20px;
+}
+
 .navbar {
     background: transparent;
     margin: 0 auto;
