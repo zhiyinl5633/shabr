@@ -98,13 +98,14 @@ p {
 
 .navbar {
     background: transparent;
-    float: right;
     margin: 0 auto;
     font-size: x-large;
     font-weight: bold;
     font-style: important;
     border-color: transparent;
     font-family: Wendy One;
+    float: right;
+    text-align: center;
 }
 
 #infobg {
