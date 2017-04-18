@@ -54,7 +54,7 @@ p {
     font-size: 150px;
     font-family: 'Monoton', cursive;
     animation-name: txtcolor;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -156,10 +156,11 @@ p {
 
 @media(min-width:768px) {
     #landing h1 {
-        font-size: 80px;
+        font-size: 90px;
     }
     #landing h2 {
-        font-size: 30px;
+        font-size: 20px;
+
     }
     h1 {
         font-size: 50px;
